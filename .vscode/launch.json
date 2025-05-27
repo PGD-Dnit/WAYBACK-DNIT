@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Launch Firefox against localhost",
+            "url": "https://localhost:8080",
+            "webRoot": "${workspaceFolder}/src",
+            "reloadOnAttach": true,
+            "pathMappings": [
+                {
+                    "url": "webpack://world-imagery-wayback/src/components/BarChart/index.tsx",
+                    "path": "${workspaceFolder}/src/index.tsx"
+                },
+                {
+                    "url": "webpack://world-imagery-wayback/src/components/BarChart/index.tsx",
+                    "path": "${workspaceFolder}/src/components/SaveAsWebmapBtn/index.tsx"
+                }
+            ]
+        }
+    ]
+}
