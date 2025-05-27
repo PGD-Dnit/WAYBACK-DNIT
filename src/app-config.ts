@@ -58,8 +58,12 @@ const config: IAppConfig = {
                 'https://wayportdev.maptiles.arcgis.com/arcgis/rest/services/Wayport/GPServer/Wayport',
         },
     },
+<<<<<<< HEAD
     //original
     /*defaultMapExtent: {
+=======
+    defaultMapExtent: {
+>>>>>>> 32d09226a470908ebf8ad910ddcd3b04848e8dca
         xmin: -115.332,
         ymin: 36.048,
         xmax: -115.265,
@@ -67,6 +71,7 @@ const config: IAppConfig = {
         spatialReference: {
             wkid: 4326,
         },
+<<<<<<< HEAD
     },*/
     // Brasilia
     /*defaultMapExtent: {
@@ -86,6 +91,8 @@ const config: IAppConfig = {
         spatialReference: {
             wkid: 4326,
         },
+=======
+>>>>>>> 32d09226a470908ebf8ad910ddcd3b04848e8dca
     },
 };
 
